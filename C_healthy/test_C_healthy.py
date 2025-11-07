@@ -1,4 +1,3 @@
-import C_healthy
 from C_healthy import *
 
 bmi = BMI(70, 1.75)
@@ -37,4 +36,4 @@ print("HSI:", hsi, "\nLời khuyên:", NAHSI(hsi))
 print("MMI:", mmi, "\nLời khuyên:", NAMMI(mmi))
 print("BFM:", bfm, "\nLời khuyên:", NABFM(bfm))
 
-print("Version: ",C_healthy.__version__)
+print(C_healthy.__version__)
